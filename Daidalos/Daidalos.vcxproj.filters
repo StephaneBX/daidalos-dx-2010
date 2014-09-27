@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Managers">
+      <UniqueIdentifier>{733a4753-034c-4dc3-b775-d76c622e10ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine">
+      <UniqueIdentifier>{e50e45fa-4218-4f08-ba02-a40bb2c25805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Render">
+      <UniqueIdentifier>{2340b9c1-3007-4e14-93d1-168df8329555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Physic">
+      <UniqueIdentifier>{56633ef2-dfe2-4768-b309-bb5611153178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Loaders">
+      <UniqueIdentifier>{be326253-4818-43b4-827b-c02998e7557e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Entities">
+      <UniqueIdentifier>{a65178fc-da75-4274-8208-e437509d8548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Entities\2D">
+      <UniqueIdentifier>{5edda523-87f2-48d1-82c1-e054d018007c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Entities\3D">
+      <UniqueIdentifier>{f80688c9-63fb-4bf8-9264-8876b5ebf5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Entities\Sound">
+      <UniqueIdentifier>{c6a90bac-844b-4bcf-989c-ec60acd78be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Shaders">
+      <UniqueIdentifier>{9c26d023-0815-47fd-b6ea-4f60009e064a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{2b4c15d0-c55d-49bc-bba8-6b4eff7e27d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Objects">
+      <UniqueIdentifier>{f98fd83e-a7ab-4e8a-80e7-677621f07597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Objects\Dynamic">
+      <UniqueIdentifier>{bb9e13d2-c7cf-4c6b-99ed-21c917ad0447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Objects\Usable">
+      <UniqueIdentifier>{1118affa-b347-48e6-afdf-eaeba2d42866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Objects\Doors">
+      <UniqueIdentifier>{03e9b6ef-e2a8-4d5f-aa0b-767ebb62b391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Menus">
+      <UniqueIdentifier>{d3d04667-e580-4197-bbf8-34ae32c03fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Managers">
+      <UniqueIdentifier>{18e046dc-ff87-4b9d-a786-258556b54815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine">
+      <UniqueIdentifier>{7d4e96cf-b777-42c0-8d75-095954a0a218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\Render">
+      <UniqueIdentifier>{0e0109cf-8522-4bcc-9c35-5a1c30dfb27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\Physic">
+      <UniqueIdentifier>{fc9bf88e-35c5-4cf1-ba9c-74e022d0747a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\Loaders">
+      <UniqueIdentifier>{2bc41daf-a477-4ca7-a7f7-f31836bcb69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\Entities">
+      <UniqueIdentifier>{39b8a460-2a3e-4a6a-aac3-0b360eaa0697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\Entities\2D">
+      <UniqueIdentifier>{074d3621-9021-4cdd-b717-bedd7386a305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\Entities\3D">
+      <UniqueIdentifier>{d7491eee-c2c1-4711-905d-deb39a5bb252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine\Entities\Sound">
+      <UniqueIdentifier>{adfb4491-bbb8-4a51-8b39-8a951d807d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders">
+      <UniqueIdentifier>{1f3b23b3-146f-4873-8044-830867c2e5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Misc">
+      <UniqueIdentifier>{c502495a-a240-4943-937d-d72a79b10651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{d55b9d69-a66b-4e8c-9551-ba1fae403efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Objects">
+      <UniqueIdentifier>{eb679d14-a54a-467c-b858-0089ea113a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Objects\Dynamic">
+      <UniqueIdentifier>{f85a2b27-c34c-40b4-9804-78d8e9f9c2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Objects\Usable">
+      <UniqueIdentifier>{cfcaca15-2c42-47e3-9ef4-ced3af1e7764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Objects\Doors">
+      <UniqueIdentifier>{71256c51-8348-48ec-aaf1-1467fc9cf59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Menus">
+      <UniqueIdentifier>{42275b7d-2c14-4148-8569-93238945a4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CCameraManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CControlManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CDeviceManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CGamepadManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CKeyboardManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CLangManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CLightManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CLogManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CMaterialManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CMeshManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CModManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CMouseManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\COptionManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CShaderManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CSoundManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CTextureManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CMod.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CTokenizer.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CEntityRender.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CFrustum.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CLight.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CSceneBrush.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CSceneBSP3D.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CSceneBSPTree.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CSceneCamera.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CSceneDynamic.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CSceneFace.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CSceneNode.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CScenePlane.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\CSceneStatic.cpp">
+      <Filter>Fichiers sources\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physic\CEllipse.cpp">
+      <Filter>Fichiers sources\Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physic\CImpact.cpp">
+      <Filter>Fichiers sources\Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physic\CMovement.cpp">
+      <Filter>Fichiers sources\Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physic\CShape.cpp">
+      <Filter>Fichiers sources\Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physic\CSphere.cpp">
+      <Filter>Fichiers sources\Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\CMaterial.cpp">
+      <Filter>Fichiers sources\Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\CMD2Loader.cpp">
+      <Filter>Fichiers sources\Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\CMesh.cpp">
+      <Filter>Fichiers sources\Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\CMeshMD2.cpp">
+      <Filter>Fichiers sources\Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\CMeshMS3D.cpp">
+      <Filter>Fichiers sources\Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\CMeshOBJ.cpp">
+      <Filter>Fichiers sources\Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\CMS3DLoader.cpp">
+      <Filter>Fichiers sources\Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\CObjLoader.cpp">
+      <Filter>Fichiers sources\Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\2D\CFontEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\2D\CIntroMenuEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\2D\CKeysMenuEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\2D\CMenuEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\2D\CModificationMenuEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\2D\CSpriteEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\3D\CEmitterEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\3D\CObjectEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\3D\CObjectEntityDoor.cpp">
+      <Filter>Fichiers sources\Engine\Entities\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\3D\CObjectEntityLockedDoor.cpp">
+      <Filter>Fichiers sources\Engine\Entities\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\3D\CObjectEntitySwitch.cpp">
+      <Filter>Fichiers sources\Engine\Entities\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\3D\CObjectEntityUsable.cpp">
+      <Filter>Fichiers sources\Engine\Entities\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\3D\CParticleEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\Sound\CEffectSoundEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\Sound\CMusicSoundEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\Sound\CSoundEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\Sound\CWaveEffectEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\Sound\CWaveMusicEntity.cpp">
+      <Filter>Fichiers sources\Engine\Entities\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\Sound\CWaves.cpp">
+      <Filter>Fichiers sources\Engine\Entities\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\CDSShaderFillShadowMap.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\CDSShaderFillWorld.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\CDSShaderFillWorldNoShadows.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\CDSShaderRenderWorld.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\CShader.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CFlashlight.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CHud.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CInventory.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CPlayer.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Dynamic\CAlarmLight.cpp">
+      <Filter>Fichiers sources\Game\Objects\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Dynamic\CBars.cpp">
+      <Filter>Fichiers sources\Game\Objects\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Dynamic\CDwarf.cpp">
+      <Filter>Fichiers sources\Game\Objects\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Dynamic\CHelix.cpp">
+      <Filter>Fichiers sources\Game\Objects\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Usable\CArmorBonus.cpp">
+      <Filter>Fichiers sources\Game\Objects\Usable</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Usable\CFlashlightBonus.cpp">
+      <Filter>Fichiers sources\Game\Objects\Usable</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Usable\CHandgunAmmo.cpp">
+      <Filter>Fichiers sources\Game\Objects\Usable</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Usable\CHealthBonus.cpp">
+      <Filter>Fichiers sources\Game\Objects\Usable</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Usable\CMagneticCard.cpp">
+      <Filter>Fichiers sources\Game\Objects\Usable</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Usable\CShotgunAmmo.cpp">
+      <Filter>Fichiers sources\Game\Objects\Usable</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CBarsLockedDoor.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CCardReader.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CHiddenLockedDoor.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CInvisibleSwitch.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CPlainDoor1.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CPlainDoor3.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CPlainDoor5.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CPlainLockedDoor1.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CPlainLockedDoor3.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CPlainLockedDoor5.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Doors\CSwitch1.cpp">
+      <Filter>Fichiers sources\Game\Objects\Doors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CControlOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CGameMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CGameOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CGamepadControlOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CGamepadGeneralControlOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CGamepadKeyControlOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CGraphicOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CIntroMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CKeyboardControlOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CLoadingMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CMainMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CMouseControlOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CMouseGeneralControlOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CMouseKeyControlOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\COptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menus\CSoundOptionMenu.cpp">
+      <Filter>Fichiers sources\Game\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CParticleSystemManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CFPSCounter.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CGame.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CEngine.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\CForwardShaderParticles.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\CDSShaderFillLightning.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\CDSShaderFillLightningNoShadows.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CCameraManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CControlManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CDeviceManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CGamepadManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CKeyboardManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CLangManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CLightManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CLogManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CMaterialManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CMeshManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CModManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CMouseManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\COptionManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CParticleSystemManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CShaderManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CSingletonManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CSoundManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CTextureManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CMod.h">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CTokenizer.h">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CEntityRender.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CFrustum.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CLight.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CSceneBrush.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CSceneBSP3D.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CSceneBSPTree.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CSceneCamera.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CSceneDynamic.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CSceneFace.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CSceneNode.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CScenePlane.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\CSceneStatic.h">
+      <Filter>Fichiers d%27en-tête\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physic\CEllipse.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physic\CImpact.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physic\CMovement.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physic\CShape.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physic\CSphere.h">
+      <Filter>Fichiers d%27en-tête\Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\CMaterial.h">
+      <Filter>Fichiers d%27en-tête\Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\CMD2Loader.h">
+      <Filter>Fichiers d%27en-tête\Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\CMesh.h">
+      <Filter>Fichiers d%27en-tête\Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\CMeshMD2.h">
+      <Filter>Fichiers d%27en-tête\Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\CMeshMS3D.h">
+      <Filter>Fichiers d%27en-tête\Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\CMeshOBJ.h">
+      <Filter>Fichiers d%27en-tête\Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\CMS3DLoader.h">
+      <Filter>Fichiers d%27en-tête\Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\CObjLoader.h">
+      <Filter>Fichiers d%27en-tête\Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\2D\CFontEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\2D\CIntroMenuEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\2D\CKeysMenuEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\2D\CMenuEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\2D\CModificationMenuEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\2D\CSpriteEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\3D\CEmitterEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\3D\CObjectEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\3D\CObjectEntityDoor.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\3D\CObjectEntityLockedDoor.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\3D\CObjectEntitySwitch.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\3D\CObjectEntityUsable.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\3D\CParticleEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Sound\CEffectSoundEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Sound\CMusicSoundEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Sound\CSoundEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Sound\CWaveEffectEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Sound\CWaveMusicEntity.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Sound\CWaves.h">
+      <Filter>Fichiers d%27en-tête\Engine\Entities\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CDSShaderFillShadowMap.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CDSShaderFillWorld.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CDSShaderFillWorldNoShadows.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CDSShaderRenderWorld.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CShader.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\CArraySorter.h">
+      <Filter>Fichiers d%27en-tête\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\CMemoryAllocator.h">
+      <Filter>Fichiers d%27en-tête\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\CTimer.h">
+      <Filter>Fichiers d%27en-tête\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Global.h">
+      <Filter>Fichiers d%27en-tête\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CFlashlight.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CHud.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CInventory.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CPlayer.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Dynamic\CAlarmLight.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Dynamic\CBars.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Dynamic\CDwarf.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Dynamic\CHelix.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Usable\CArmorBonus.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Usable</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Usable\CFlashlightBonus.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Usable</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Usable\CHandgunAmmo.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Usable</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Usable\CHealthBonus.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Usable</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Usable\CMagneticCard.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Usable</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Usable\CShotgunAmmo.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Usable</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CBarsLockedDoor.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CCardReader.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CHiddenLockedDoor.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CInvisibleSwitch.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CPlainDoor1.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CPlainDoor3.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CPlainDoor5.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CPlainLockedDoor1.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CPlainLockedDoor3.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CPlainLockedDoor5.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Doors\CSwitch1.h">
+      <Filter>Fichiers d%27en-tête\Game\Objects\Doors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CControlOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CGameMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CGameOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CGamepadControlOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CGamepadGeneralControlOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CGamepadKeyControlOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CGraphicOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CIntroMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CKeyboardControlOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CLoadingMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CMainMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CMouseControlOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CMouseGeneralControlOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CMouseKeyControlOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\COptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menus\CSoundOptionMenu.h">
+      <Filter>Fichiers d%27en-tête\Game\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CFPSCounter.h">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CGame.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CEngine.h">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CForwardShaderParticles.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CDSShaderFillLightning.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CDSShaderFillLightningNoShadows.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Daidalos.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="logo.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+</Project>

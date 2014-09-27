@@ -1,0 +1,25 @@
+struct VS_INPUT
+{
+	float4 position 	: POSITION;
+	float2 texcoord0	: TEXCOORD0;
+};
+
+struct PS_OUTPUT
+{
+	float4 color : COLOR;
+};
+
+sampler2D albedo 			: register(s0);
+sampler2D lightning 		: register(s1);
+
+PS_OUTPUT main(VS_INPUT IN)
+{
+	PS_OUTPUT OUT;
+	float4 currentDiffuse = tex2D( albedo, IN.texcoord0 );
+	float4 currentLightning = tex2D( lightning, IN.texcoord0 );
+	
+	OUT.color = currentDiffuse * currentLightning;
+	
+	return OUT;
+}
+

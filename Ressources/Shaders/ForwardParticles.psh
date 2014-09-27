@@ -1,0 +1,121 @@
+#define MAXIMUM_VALID_REFLECTION_ANGLE 90.0f
+#define MAX_LIGHTS 6
+#define LIGHT_FLAG_ENABLED 1
+#define LIGHT_FLAG_SHADOWCASTER 2
+
+uniform float4 shadowConfiguration; // shadow map size, epsilon
+uniform float4 lightningConfiguration; // angle fade out, distance fade out, fog fade out, ns modifier
+
+uniform float4 cameraPositionDistance;
+uniform float4 lightPositionAngle[MAX_LIGHTS];
+uniform float4 lightDirectionLength[MAX_LIGHTS];
+uniform float4 lightColor[MAX_LIGHTS];
+uniform int lightFlags[MAX_LIGHTS];
+
+struct VS_OUTPUT
+{
+	float4 position 		: POSITION;
+	float2 texcoord 		: TEXCOORD0;
+	float3 normal			: TEXCOORD1;
+	float3 tangent			: TEXCOORD2;
+	float3 bitangent		: TEXCOORD3;
+	float4 pos		  		: TEXCOORD4;
+	float4 color	  		: COLOR0;
+	float3 sinCosLife		: COLOR1;
+};
+
+struct PS_OUTPUT
+{
+	float4 color : COLOR;
+};
+
+sampler2D albedo;
+sampler2D normal;
+
+PS_OUTPUT main(VS_OUTPUT IN)
+{
+	PS_OUTPUT OUT;
+
+	float3x3 tangentToSpace = transpose(float3x3(IN.tangent, IN.bitangent, IN.normal));
+
+	float4 currentDiffuse = tex2D(albedo, IN.texcoord.xy) * IN.color;
+	currentDiffuse.w *= (1.0f - IN.sinCosLife.z);
+	
+	/*float3 currentPosition = IN.pos.xyz / IN.pos.w;
+	float3 currentNormal = mul(tangentToSpace, tex2D(normal, IN.texcoord).xyz * 2.0f - 1.0f);
+	
+	float4 viewDistance = float4(normalize(currentPosition - cameraPositionDistance.xyz), length(cameraPositionDistance.xyz - currentPosition));
+	float3 tmp;
+	float3 lightDir;
+	float3 h;
+	float4 fogAngleDistanceIlluminationFactors;
+	float2 reflectionLightAngles;
+	float3 spec = float3(0.3f,0.3f,0.3f);
+	float3 maxDiff = float3(0.1f,0.1f,0.1f);
+	float3 maxSpec = float3(0,0,0);
+	
+	// Distance Check
+	if(viewDistance.w < cameraPositionDistance.w )
+	{
+		// Fog Factor
+		if(viewDistance.w >= cameraPositionDistance.w - lightningConfiguration.z)
+			fogAngleDistanceIlluminationFactors.x = (1 - ((viewDistance.w - (cameraPositionDistance.w - lightningConfiguration.z)) / lightningConfiguration.z));
+		else
+			fogAngleDistanceIlluminationFactors.x = 1;
+		
+		// Lights calculation
+		for(int i = 0 ; i < MAX_LIGHTS ; i++)
+		{
+			// Light status check
+			if(lightFlags[i] >= LIGHT_FLAG_ENABLED)
+			{
+				// Light Angle Check
+				reflectionLightAngles.y = degrees(acos(dot(normalize(currentPosition - lightPositionAngle[i].xyz), lightDirectionLength[i].xyz)));
+				viewDistance.w = distance(currentPosition, lightPositionAngle[i].xyz);
+				if(reflectionLightAngles.y < lightPositionAngle[i].w && viewDistance.w < lightDirectionLength[i].w)
+				{
+					lightDir = currentPosition - lightPositionAngle[i].xyz;
+					lightDir = normalize(-lightDir);
+					
+					// Reflection Angle Check
+					reflectionLightAngles.x = degrees(acos(dot(lightDir, currentNormal)));
+					if(reflectionLightAngles.x < MAXIMUM_VALID_REFLECTION_ANGLE)
+					{
+						// Light Angle Factor
+						fogAngleDistanceIlluminationFactors.y = reflectionLightAngles.y / lightPositionAngle[i].w;
+						if(fogAngleDistanceIlluminationFactors.y <= lightningConfiguration.x)
+							fogAngleDistanceIlluminationFactors.y = 1;
+						else
+							fogAngleDistanceIlluminationFactors.y = (1 - fogAngleDistanceIlluminationFactors.y) / (1 - lightningConfiguration.x);
+						
+						// Light Distance Factor
+						fogAngleDistanceIlluminationFactors.z = viewDistance.w / lightDirectionLength[i].w;
+						if(fogAngleDistanceIlluminationFactors.z <= lightningConfiguration.y)
+							fogAngleDistanceIlluminationFactors.z = 1;
+						else
+							fogAngleDistanceIlluminationFactors.z = (1 - fogAngleDistanceIlluminationFactors.z) / (1 - lightningConfiguration.y);
+					
+						// Diffuse Illumination Factor
+						fogAngleDistanceIlluminationFactors.w = saturate(dot(lightDir, currentNormal));
+						tmp = lightColor[i].xyz * fogAngleDistanceIlluminationFactors.w * fogAngleDistanceIlluminationFactors.y * fogAngleDistanceIlluminationFactors.z;
+						maxDiff = max(maxDiff, tmp);
+						
+						// Specular Illumination Factor
+						h = normalize(reflect(lightDir, currentNormal.xyz));
+						fogAngleDistanceIlluminationFactors.w = pow(saturate(dot(h, viewDistance.xyz)), 0.5f * lightningConfiguration.w);
+						
+						tmp = lightColor[i].xyz * spec * fogAngleDistanceIlluminationFactors.w * fogAngleDistanceIlluminationFactors.y * fogAngleDistanceIlluminationFactors.z;
+						maxSpec = max(maxSpec, tmp);
+					}
+				}
+			}
+		}
+		
+		OUT.color = float4(saturate(maxDiff + maxSpec), 1.0f) * currentDiffuse * fogAngleDistanceIlluminationFactors.x;
+		//OUT.color = float4(saturate(maxDiff + maxSpec), 1.0f) * float4(currentDiffuse.xyz, 1.0f) * fogAngleDistanceIlluminationFactors.x;
+	}*/
+	
+	OUT.color = float4(0.3f,0.3f,0.3f,1) * currentDiffuse;
+	
+	return OUT;
+}

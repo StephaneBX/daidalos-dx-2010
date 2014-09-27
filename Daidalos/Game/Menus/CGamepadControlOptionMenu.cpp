@@ -1,0 +1,70 @@
+/*
+==============================================================================================================================================================
+
+Author: Stephane Baudoux
+Attribution-Noncommercial-Share Alike 3.0 Unported
+
+You are free:
+to Share - to copy, distribute and transmit the work
+to Remix - to adapt the work
+
+Under the following conditions:
+Attribution - You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+Noncommercial - You may not use this work for commercial purposes.
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
+With the understanding that:
+Waiver - Any of the above conditions can be waived if you get permission from the copyright holder.
+Public Domain - Where the work or any of its elements is in the public domain under applicable law, that status is in no way affected by the license.
+Other Rights - In no way are any of the following rights affected by the license:
+Your fair dealing or fair use rights, or other applicable copyright exceptions and limitations;
+The author's moral rights;
+Rights other persons may have either in the work itself or in how the work is used, such as publicity or privacy rights.
+Notice - For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.
+
+==============================================================================================================================================================
+*/
+
+#include <sstream>
+#include "../../Game/Menus/CGamepadControlOptionMenu.h"
+#include "../../Engine/Entities/2D/CFontEntity.h"
+#include "../../Engine/Entities/2D/CSpriteEntity.h"
+#include "../../Managers/COptionManager.h"
+#include "../../Managers/CModManager.h"
+#include "../../Managers/CControlManager.h"
+
+/**
+* Constructor
+*/
+CGamepadControlOptionMenu::CGamepadControlOptionMenu() : CMenuEntity(GAMEPAD_CONTROL_MENU_OPTION_SIZE, ID_OPTIONMENU_CONTROLS_GAMEPAD)
+{
+	std::ostringstream stream;
+	stream.str("");
+	stream << "Fonts/" << this->m_optionM->GetTexturePath(OPTIONMANAGER_CONFIGURATION_ACTIVE) << "/" << "default.tga";
+
+	this->m_actionList[GAMEPAD_CONTROL_MENU_OPTION_GENERAL] = ID_OPTIONMENU_CONTROLS_GAMEPAD_GENERAL;
+	this->m_actionList[GAMEPAD_CONTROL_MENU_OPTION_KEYS] = ID_OPTIONMENU_CONTROLS_GAMEPAD_KEYS;
+	this->m_actionList[GAMEPAD_CONTROL_MENU_OPTION_PREVIOUS] = ID_OPTIONMENU_CONTROLS;
+
+	int centerY = this->m_optionM->GetHeight(OPTIONMANAGER_CONFIGURATION_ACTIVE) / 2;
+
+	this->m_textList[GAMEPAD_CONTROL_MENU_OPTION_GENERAL] = new CFontEntity(stream.str(), this->m_modM->GetLangText(LANGMANAGER_TEXT_MENU_GENERALOPTIONS), 1.0f,  FONT_ALIGN_CENTER, this->m_optionM->GetWidth(OPTIONMANAGER_CONFIGURATION_ACTIVE) / 2, (int)(centerY - FONT_CHARACTER_SPACE * this->m_optionM->GetHeight(OPTIONMANAGER_CONFIGURATION_ACTIVE)), 0xFFFFFFFF, 0xFFFF0000);
+	this->m_textList[GAMEPAD_CONTROL_MENU_OPTION_KEYS] = new CFontEntity(stream.str(), this->m_modM->GetLangText(LANGMANAGER_TEXT_MENU_KEYSASSIGNMENT), 1.0f,  FONT_ALIGN_CENTER, this->m_optionM->GetWidth(OPTIONMANAGER_CONFIGURATION_ACTIVE) / 2, (int)(centerY), 0xFFFFFFFF, 0xFFFF0000);
+	this->m_textList[GAMEPAD_CONTROL_MENU_OPTION_PREVIOUS] = new CFontEntity(stream.str(), this->m_modM->GetLangText(LANGMANAGER_TEXT_MENU_PREVIOUS), 1.0f, FONT_ALIGN_CENTER, this->m_optionM->GetWidth(OPTIONMANAGER_CONFIGURATION_ACTIVE) / 2, (int)(centerY + FONT_CHARACTER_SPACE * this->m_optionM->GetHeight(OPTIONMANAGER_CONFIGURATION_ACTIVE)), 0xFFFFFFFF, 0xFFFF0000);
+
+	this->m_textList[0]->SetActive(true);
+
+	SetHeader(stream.str(), this->m_modM->GetLangText(LANGMANAGER_TEXT_MENU_TITLE_OPTIONS_CONTROLS_GAMEPAD));
+
+	if(this->m_optionM->GetScreenFormat(OPTIONMANAGER_CONFIGURATION_ACTIVE) == SCREEN_FORMAT_STANDARD)
+		this->m_sprite = new CSpriteEntity("menu_standard.png", D3DXVECTOR2(0,0), D3DXVECTOR2(0,0), D3DXVECTOR2(this->m_optionM->GetWidth(OPTIONMANAGER_CONFIGURATION_ACTIVE) / MENU_TEXTURE_SIZE, this->m_optionM->GetWidth(OPTIONMANAGER_CONFIGURATION_ACTIVE) / MENU_TEXTURE_SIZE), 1, 1, (int)MENU_TEXTURE_SIZE, (int)(MENU_TEXTURE_SIZE * SCREEN_FORMAT_STANDARD_RATIO));
+	else
+		this->m_sprite = new CSpriteEntity("menu_wide.png", D3DXVECTOR2(0,0), D3DXVECTOR2(0,0), D3DXVECTOR2(this->m_optionM->GetWidth(OPTIONMANAGER_CONFIGURATION_ACTIVE) / MENU_TEXTURE_SIZE, this->m_optionM->GetWidth(OPTIONMANAGER_CONFIGURATION_ACTIVE) / MENU_TEXTURE_SIZE), 1, 1, (int)MENU_TEXTURE_SIZE, (int)(MENU_TEXTURE_SIZE * SCREEN_FORMAT_WIDE));
+
+	ProcessFontsLocation();
+}
+
+/**
+* Destructor
+*/
+CGamepadControlOptionMenu::~CGamepadControlOptionMenu(){}

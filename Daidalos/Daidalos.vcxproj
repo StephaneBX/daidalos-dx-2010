@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A81EEAB-B1EE-4EFB-B3DB-E34E9EBCD6B4}</ProjectGuid>
+    <RootNamespace>Daidalos</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>Includes;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>Libs;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>Includes;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>Libs;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\CEngine.cpp" />
+    <ClCompile Include="Engine\CFPSCounter.cpp" />
+    <ClCompile Include="Game\CGame.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Managers\CCameraManager.cpp" />
+    <ClCompile Include="Managers\CControlManager.cpp" />
+    <ClCompile Include="Managers\CDeviceManager.cpp" />
+    <ClCompile Include="Managers\CGamepadManager.cpp" />
+    <ClCompile Include="Managers\CKeyboardManager.cpp" />
+    <ClCompile Include="Managers\CLangManager.cpp" />
+    <ClCompile Include="Managers\CLightManager.cpp" />
+    <ClCompile Include="Managers\CLogManager.cpp" />
+    <ClCompile Include="Managers\CMaterialManager.cpp" />
+    <ClCompile Include="Managers\CMeshManager.cpp" />
+    <ClCompile Include="Managers\CModManager.cpp" />
+    <ClCompile Include="Managers\CMouseManager.cpp" />
+    <ClCompile Include="Managers\COptionManager.cpp" />
+    <ClCompile Include="Managers\CParticleSystemManager.cpp" />
+    <ClCompile Include="Managers\CShaderManager.cpp" />
+    <ClCompile Include="Managers\CSoundManager.cpp" />
+    <ClCompile Include="Managers\CTextureManager.cpp" />
+    <ClCompile Include="Engine\CMod.cpp" />
+    <ClCompile Include="Engine\CTokenizer.cpp" />
+    <ClCompile Include="Engine\Render\CEntityRender.cpp" />
+    <ClCompile Include="Engine\Render\CFrustum.cpp" />
+    <ClCompile Include="Engine\Render\CLight.cpp" />
+    <ClCompile Include="Engine\Render\CSceneBrush.cpp" />
+    <ClCompile Include="Engine\Render\CSceneBSP3D.cpp" />
+    <ClCompile Include="Engine\Render\CSceneBSPTree.cpp" />
+    <ClCompile Include="Engine\Render\CSceneCamera.cpp" />
+    <ClCompile Include="Engine\Render\CSceneDynamic.cpp" />
+    <ClCompile Include="Engine\Render\CSceneFace.cpp" />
+    <ClCompile Include="Engine\Render\CSceneNode.cpp" />
+    <ClCompile Include="Engine\Render\CScenePlane.cpp" />
+    <ClCompile Include="Engine\Render\CSceneStatic.cpp" />
+    <ClCompile Include="Engine\Physic\CEllipse.cpp" />
+    <ClCompile Include="Engine\Physic\CImpact.cpp" />
+    <ClCompile Include="Engine\Physic\CMovement.cpp" />
+    <ClCompile Include="Engine\Physic\CShape.cpp" />
+    <ClCompile Include="Engine\Physic\CSphere.cpp" />
+    <ClCompile Include="Engine\Loaders\CMaterial.cpp" />
+    <ClCompile Include="Engine\Loaders\CMD2Loader.cpp" />
+    <ClCompile Include="Engine\Loaders\CMesh.cpp" />
+    <ClCompile Include="Engine\Loaders\CMeshMD2.cpp" />
+    <ClCompile Include="Engine\Loaders\CMeshMS3D.cpp" />
+    <ClCompile Include="Engine\Loaders\CMeshOBJ.cpp" />
+    <ClCompile Include="Engine\Loaders\CMS3DLoader.cpp" />
+    <ClCompile Include="Engine\Loaders\CObjLoader.cpp" />
+    <ClCompile Include="Engine\Entities\2D\CFontEntity.cpp" />
+    <ClCompile Include="Engine\Entities\2D\CIntroMenuEntity.cpp" />
+    <ClCompile Include="Engine\Entities\2D\CKeysMenuEntity.cpp" />
+    <ClCompile Include="Engine\Entities\2D\CMenuEntity.cpp" />
+    <ClCompile Include="Engine\Entities\2D\CModificationMenuEntity.cpp" />
+    <ClCompile Include="Engine\Entities\2D\CSpriteEntity.cpp" />
+    <ClCompile Include="Engine\Entities\3D\CEmitterEntity.cpp" />
+    <ClCompile Include="Engine\Entities\3D\CObjectEntity.cpp" />
+    <ClCompile Include="Engine\Entities\3D\CObjectEntityDoor.cpp" />
+    <ClCompile Include="Engine\Entities\3D\CObjectEntityLockedDoor.cpp" />
+    <ClCompile Include="Engine\Entities\3D\CObjectEntitySwitch.cpp" />
+    <ClCompile Include="Engine\Entities\3D\CObjectEntityUsable.cpp" />
+    <ClCompile Include="Engine\Entities\3D\CParticleEntity.cpp" />
+    <ClCompile Include="Engine\Entities\Sound\CEffectSoundEntity.cpp" />
+    <ClCompile Include="Engine\Entities\Sound\CMusicSoundEntity.cpp" />
+    <ClCompile Include="Engine\Entities\Sound\CSoundEntity.cpp" />
+    <ClCompile Include="Engine\Entities\Sound\CWaveEffectEntity.cpp" />
+    <ClCompile Include="Engine\Entities\Sound\CWaveMusicEntity.cpp" />
+    <ClCompile Include="Engine\Entities\Sound\CWaves.cpp" />
+    <ClCompile Include="Shaders\CDSShaderFillLightning.cpp" />
+    <ClCompile Include="Shaders\CDSShaderFillLightningNoShadows.cpp" />
+    <ClCompile Include="Shaders\CDSShaderFillShadowMap.cpp" />
+    <ClCompile Include="Shaders\CDSShaderFillWorld.cpp" />
+    <ClCompile Include="Shaders\CDSShaderFillWorldNoShadows.cpp" />
+    <ClCompile Include="Shaders\CDSShaderRenderWorld.cpp" />
+    <ClCompile Include="Shaders\CForwardShaderParticles.cpp" />
+    <ClCompile Include="Shaders\CShader.cpp" />
+    <ClCompile Include="Game\CFlashlight.cpp" />
+    <ClCompile Include="Game\CHud.cpp" />
+    <ClCompile Include="Game\CInventory.cpp" />
+    <ClCompile Include="Game\CPlayer.cpp" />
+    <ClCompile Include="Game\Objects\Dynamic\CAlarmLight.cpp" />
+    <ClCompile Include="Game\Objects\Dynamic\CBars.cpp" />
+    <ClCompile Include="Game\Objects\Dynamic\CDwarf.cpp" />
+    <ClCompile Include="Game\Objects\Dynamic\CHelix.cpp" />
+    <ClCompile Include="Game\Objects\Usable\CArmorBonus.cpp" />
+    <ClCompile Include="Game\Objects\Usable\CFlashlightBonus.cpp" />
+    <ClCompile Include="Game\Objects\Usable\CHandgunAmmo.cpp" />
+    <ClCompile Include="Game\Objects\Usable\CHealthBonus.cpp" />
+    <ClCompile Include="Game\Objects\Usable\CMagneticCard.cpp" />
+    <ClCompile Include="Game\Objects\Usable\CShotgunAmmo.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CBarsLockedDoor.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CCardReader.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CHiddenLockedDoor.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CInvisibleSwitch.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CPlainDoor1.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CPlainDoor3.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CPlainDoor5.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CPlainLockedDoor1.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CPlainLockedDoor3.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CPlainLockedDoor5.cpp" />
+    <ClCompile Include="Game\Objects\Doors\CSwitch1.cpp" />
+    <ClCompile Include="Game\Menus\CControlOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CGameMenu.cpp" />
+    <ClCompile Include="Game\Menus\CGameOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CGamepadControlOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CGamepadGeneralControlOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CGamepadKeyControlOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CGraphicOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CIntroMenu.cpp" />
+    <ClCompile Include="Game\Menus\CKeyboardControlOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CLoadingMenu.cpp" />
+    <ClCompile Include="Game\Menus\CMainMenu.cpp" />
+    <ClCompile Include="Game\Menus\CMouseControlOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CMouseGeneralControlOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CMouseKeyControlOptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\COptionMenu.cpp" />
+    <ClCompile Include="Game\Menus\CSoundOptionMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\CEngine.h" />
+    <ClInclude Include="Engine\CFPSCounter.h" />
+    <ClInclude Include="Game\CGame.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Managers\CCameraManager.h" />
+    <ClInclude Include="Managers\CControlManager.h" />
+    <ClInclude Include="Managers\CDeviceManager.h" />
+    <ClInclude Include="Managers\CGamepadManager.h" />
+    <ClInclude Include="Managers\CKeyboardManager.h" />
+    <ClInclude Include="Managers\CLangManager.h" />
+    <ClInclude Include="Managers\CLightManager.h" />
+    <ClInclude Include="Managers\CLogManager.h" />
+    <ClInclude Include="Managers\CMaterialManager.h" />
+    <ClInclude Include="Managers\CMeshManager.h" />
+    <ClInclude Include="Managers\CModManager.h" />
+    <ClInclude Include="Managers\CMouseManager.h" />
+    <ClInclude Include="Managers\COptionManager.h" />
+    <ClInclude Include="Managers\CParticleSystemManager.h" />
+    <ClInclude Include="Managers\CShaderManager.h" />
+    <ClInclude Include="Managers\CSingletonManager.h" />
+    <ClInclude Include="Managers\CSoundManager.h" />
+    <ClInclude Include="Managers\CTextureManager.h" />
+    <ClInclude Include="Engine\CMod.h" />
+    <ClInclude Include="Engine\CTokenizer.h" />
+    <ClInclude Include="Engine\Render\CEntityRender.h" />
+    <ClInclude Include="Engine\Render\CFrustum.h" />
+    <ClInclude Include="Engine\Render\CLight.h" />
+    <ClInclude Include="Engine\Render\CSceneBrush.h" />
+    <ClInclude Include="Engine\Render\CSceneBSP3D.h" />
+    <ClInclude Include="Engine\Render\CSceneBSPTree.h" />
+    <ClInclude Include="Engine\Render\CSceneCamera.h" />
+    <ClInclude Include="Engine\Render\CSceneDynamic.h" />
+    <ClInclude Include="Engine\Render\CSceneFace.h" />
+    <ClInclude Include="Engine\Render\CSceneNode.h" />
+    <ClInclude Include="Engine\Render\CScenePlane.h" />
+    <ClInclude Include="Engine\Render\CSceneStatic.h" />
+    <ClInclude Include="Engine\Physic\CEllipse.h" />
+    <ClInclude Include="Engine\Physic\CImpact.h" />
+    <ClInclude Include="Engine\Physic\CMovement.h" />
+    <ClInclude Include="Engine\Physic\CShape.h" />
+    <ClInclude Include="Engine\Physic\CSphere.h" />
+    <ClInclude Include="Engine\Loaders\CMaterial.h" />
+    <ClInclude Include="Engine\Loaders\CMD2Loader.h" />
+    <ClInclude Include="Engine\Loaders\CMesh.h" />
+    <ClInclude Include="Engine\Loaders\CMeshMD2.h" />
+    <ClInclude Include="Engine\Loaders\CMeshMS3D.h" />
+    <ClInclude Include="Engine\Loaders\CMeshOBJ.h" />
+    <ClInclude Include="Engine\Loaders\CMS3DLoader.h" />
+    <ClInclude Include="Engine\Loaders\CObjLoader.h" />
+    <ClInclude Include="Engine\Entities\2D\CFontEntity.h" />
+    <ClInclude Include="Engine\Entities\2D\CIntroMenuEntity.h" />
+    <ClInclude Include="Engine\Entities\2D\CKeysMenuEntity.h" />
+    <ClInclude Include="Engine\Entities\2D\CMenuEntity.h" />
+    <ClInclude Include="Engine\Entities\2D\CModificationMenuEntity.h" />
+    <ClInclude Include="Engine\Entities\2D\CSpriteEntity.h" />
+    <ClInclude Include="Engine\Entities\3D\CEmitterEntity.h" />
+    <ClInclude Include="Engine\Entities\3D\CObjectEntity.h" />
+    <ClInclude Include="Engine\Entities\3D\CObjectEntityDoor.h" />
+    <ClInclude Include="Engine\Entities\3D\CObjectEntityLockedDoor.h" />
+    <ClInclude Include="Engine\Entities\3D\CObjectEntitySwitch.h" />
+    <ClInclude Include="Engine\Entities\3D\CObjectEntityUsable.h" />
+    <ClInclude Include="Engine\Entities\3D\CParticleEntity.h" />
+    <ClInclude Include="Engine\Entities\Sound\CEffectSoundEntity.h" />
+    <ClInclude Include="Engine\Entities\Sound\CMusicSoundEntity.h" />
+    <ClInclude Include="Engine\Entities\Sound\CSoundEntity.h" />
+    <ClInclude Include="Engine\Entities\Sound\CWaveEffectEntity.h" />
+    <ClInclude Include="Engine\Entities\Sound\CWaveMusicEntity.h" />
+    <ClInclude Include="Engine\Entities\Sound\CWaves.h" />
+    <ClInclude Include="Shaders\CDSShaderFillLightning.h" />
+    <ClInclude Include="Shaders\CDSShaderFillLightningNoShadows.h" />
+    <ClInclude Include="Shaders\CDSShaderFillShadowMap.h" />
+    <ClInclude Include="Shaders\CDSShaderFillWorld.h" />
+    <ClInclude Include="Shaders\CDSShaderFillWorldNoShadows.h" />
+    <ClInclude Include="Shaders\CDSShaderRenderWorld.h" />
+    <ClInclude Include="Shaders\CForwardShaderParticles.h" />
+    <ClInclude Include="Shaders\CShader.h" />
+    <ClInclude Include="Misc\CArraySorter.h" />
+    <ClInclude Include="Misc\CMemoryAllocator.h" />
+    <ClInclude Include="Misc\CTimer.h" />
+    <ClInclude Include="Misc\Global.h" />
+    <ClInclude Include="Game\CFlashlight.h" />
+    <ClInclude Include="Game\CHud.h" />
+    <ClInclude Include="Game\CInventory.h" />
+    <ClInclude Include="Game\CPlayer.h" />
+    <ClInclude Include="Game\Objects\Dynamic\CAlarmLight.h" />
+    <ClInclude Include="Game\Objects\Dynamic\CBars.h" />
+    <ClInclude Include="Game\Objects\Dynamic\CDwarf.h" />
+    <ClInclude Include="Game\Objects\Dynamic\CHelix.h" />
+    <ClInclude Include="Game\Objects\Usable\CArmorBonus.h" />
+    <ClInclude Include="Game\Objects\Usable\CFlashlightBonus.h" />
+    <ClInclude Include="Game\Objects\Usable\CHandgunAmmo.h" />
+    <ClInclude Include="Game\Objects\Usable\CHealthBonus.h" />
+    <ClInclude Include="Game\Objects\Usable\CMagneticCard.h" />
+    <ClInclude Include="Game\Objects\Usable\CShotgunAmmo.h" />
+    <ClInclude Include="Game\Objects\Doors\CBarsLockedDoor.h" />
+    <ClInclude Include="Game\Objects\Doors\CCardReader.h" />
+    <ClInclude Include="Game\Objects\Doors\CHiddenLockedDoor.h" />
+    <ClInclude Include="Game\Objects\Doors\CInvisibleSwitch.h" />
+    <ClInclude Include="Game\Objects\Doors\CPlainDoor1.h" />
+    <ClInclude Include="Game\Objects\Doors\CPlainDoor3.h" />
+    <ClInclude Include="Game\Objects\Doors\CPlainDoor5.h" />
+    <ClInclude Include="Game\Objects\Doors\CPlainLockedDoor1.h" />
+    <ClInclude Include="Game\Objects\Doors\CPlainLockedDoor3.h" />
+    <ClInclude Include="Game\Objects\Doors\CPlainLockedDoor5.h" />
+    <ClInclude Include="Game\Objects\Doors\CSwitch1.h" />
+    <ClInclude Include="Game\Menus\CControlOptionMenu.h" />
+    <ClInclude Include="Game\Menus\CGameMenu.h" />
+    <ClInclude Include="Game\Menus\CGameOptionMenu.h" />
+    <ClInclude Include="Game\Menus\CGamepadControlOptionMenu.h" />
+    <ClInclude Include="Game\Menus\CGamepadGeneralControlOptionMenu.h" />
+    <ClInclude Include="Game\Menus\CGamepadKeyControlOptionMenu.h" />
+    <ClInclude Include="Game\Menus\CGraphicOptionMenu.h" />
+    <ClInclude Include="Game\Menus\CIntroMenu.h" />
+    <ClInclude Include="Game\Menus\CKeyboardControlOptionMenu.h" />
+    <ClInclude Include="Game\Menus\CLoadingMenu.h" />
+    <ClInclude Include="Game\Menus\CMainMenu.h" />
+    <ClInclude Include="Game\Menus\CMouseControlOptionMenu.h" />
+    <ClInclude Include="Game\Menus\CMouseGeneralControlOptionMenu.h" />
+    <ClInclude Include="Game\Menus\CMouseKeyControlOptionMenu.h" />
+    <ClInclude Include="Game\Menus\COptionMenu.h" />
+    <ClInclude Include="Game\Menus\CSoundOptionMenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Daidalos.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="logo.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

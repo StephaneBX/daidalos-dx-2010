@@ -1,0 +1,16 @@
+#header
+closeButtonText				= Fermer le programme
+minimizeButtonText			= Minimiser le programme
+
+#status
+LabelTextDefault			= N'oubliez pas de v\u00e9rifiez les mises \u00e0 jour r\u00e9guli\u00e8rement.
+LabelTextSearching			= Recherche de mise \u00e0 jour...
+LabelTextUpToDate			= Le programme est \u00e0 jour.
+LabelTextUpdateDone			= Mise \u00e0 jour termin\u00e9e.
+LabelDownloading			= T\u00e9l\u00e9chargement du fichier : 
+LabelInstalling				= Installation du contenu du fichier : 
+LabelRestart				= L'updateur va \u00eatre red\u00e9marr\u00e9 afin de continuer la mise \u00e0 jour.
+ServerUpdateFileError		= Impossible de contacter le serveur.
+ServerUpdateFileError2		= Impossible de T\u00e9l\u00e9charger le fichier: 
+LaunchingGameError			= Impossible de lancer Da\u00eddalos.
+RestartError				= Erreur: Veuillez relancer l'updateur.

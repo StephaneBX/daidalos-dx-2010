@@ -1,0 +1,8 @@
+27/4/2011 - 17:29:33 => DX error : Texture creation (c:\users\stephane\documents\scripts\directx\daidalos\daidalos\managers\ctexturemanager.cpp, CTextureManager::LoadTexture() in line 126 code -2005529767)
+27/4/2011 - 17:29:33 => Error: Unable to load the texture: Ressources/Sprites/cur.png.
+27/4/2011 - 17:29:33 => DX error : Texture creation (c:\users\stephane\documents\scripts\directx\daidalos\daidalos\managers\ctexturemanager.cpp, CTextureManager::LoadTexture() in line 126 code -2005529767)
+27/4/2011 - 17:29:33 => Error: Unable to load the texture: Ressources/Sprites/Fonts/High/default.tga.
+27/4/2011 - 18:19:18 => DX error : Texture creation (Managers\CTextureManager.cpp, CTextureManager::LoadTexture() in line 126 code -2005529767)
+27/4/2011 - 18:19:18 => Error: Unable to load the texture: Ressources/Sprites/cur.png.
+27/4/2011 - 18:19:18 => DX error : Texture creation (Managers\CTextureManager.cpp, CTextureManager::LoadTexture() in line 126 code -2005529767)
+27/4/2011 - 18:19:18 => Error: Unable to load the texture: Ressources/Sprites/Fonts/High/default.tga.

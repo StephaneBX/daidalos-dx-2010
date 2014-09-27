@@ -1,0 +1,1562 @@
+// First Layer
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 16.0 -8.0 14.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 16.0 -8.0 16.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 18.0 -8.0 16.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 16.0 -6.0 16.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 16.0 -8.0 18.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 16.0 -6.0 18.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 16.0 -4.0 18.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 34.0 -8.0 6.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 34.0 -8.0 8.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 34.0 -6.0 6.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 32.0 -8.0 6.0
+rotation 0.0 0.0 0.0
+end
+
+object slope_stiff.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.0 0.0 110.0
+rotation 0.0 180.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position -6.0 0.0 116.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position -6.0 2.0 116.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position -6.0 4.0 116.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position -8.0 0.0 116.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position -6.0 0.0 118.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position -6.0 2.0 118.0
+rotation 0.0 0.0 0.0
+end
+
+object barrel_2.ms3d
+shading smooth
+textureD barrel_2d.png
+textureN barrel_2n.png
+position 0.0 0.0 20.0
+rotation 0.0 0.0 0.0
+end
+
+// North west
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position -34.0 0.0 64.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position -34.0 2.0 64.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position -34.0 4.0 64.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position -34.0 0.0 62.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position -34.0 2.0 62.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position -34.0 0.0 60.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position -32.0 0.0 64.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position -30.0 0.0 64.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.0 0.0 30.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.0 8.0 30.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.0 0.0 60.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.0 8.0 60.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.0 0.0 60.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar_broken.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.0 8.0 60.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.0 0.0 30.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.0 8.0 30.0
+rotation 0.0 0.0 0.0
+end
+
+object slope_low.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 60.0 0.0 50.0
+rotation 0.0 90.0 0.0
+end
+
+object slope_low.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 60.0 0.0 40.0
+rotation 0.0 90.0 0.0
+end
+
+object slope_high.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 70.0 0.0 50.0
+rotation 0.0 90.0 0.0
+end
+
+object slope_high.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 70.0 0.0 40.0
+rotation 0.0 90.0 0.0
+end
+
+// Second Layer
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 88.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 86.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 84.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 82.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 80.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 78.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 76.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 74.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 72.0
+rotation 0.0 90.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 0.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 2.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 4.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 6.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 8.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 12.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 14.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 16.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 18.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 110.0 8.0 110.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 112.0 8.0 110.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 112.0 8.0 108.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 114.0 8.0 114.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 112.0 8.0 114.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 110.0 8.0 114.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 114.0 10.0 114.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 112.0 10.0 114.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 110.0 10.0 114.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 114.0 12.0 114.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -24.0 0.0 114.0
+rotation 0.0 0.0 0.0
+end
+
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 70.0 8.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 70.0 10.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 70.0 12.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 70.0 14.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 68.0 8.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 68.0 10.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 68.0 12.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 72.0 8.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 72.0 10.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 72.0 12.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 70.0 8.0 83.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 70.0 10.0 83.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 70.0 12.0 83.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 70.0 8.0 87.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 70.0 10.0 87.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 70.0 12.0 87.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 68.0 8.0 87.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 68.0 8.0 83.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 72.0 8.0 87.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 74.0 8.0 87.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 72.0 8.0 83.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 66.0 8.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 66.0 10.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 64.0 8.0 85.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 66.0 8.0 83.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 66.0 8.0 81.0
+rotation 0.0 0.0 0.0
+end
+
+
+// First red door
+object cube.obj
+group 1
+position 106 8.0 80.0
+rotation 0.0 0.0 0.0
+scale 0.6 6 6
+invisible
+end
+
+object pillar_simple.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 106.0 8.0 76.0
+end
+
+object pillar_simple.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 106.0 8.0 84.0
+end
+
+object pillar_top.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 106.0 8.0 80.0
+rotation 0.0 90.0 0.0
+end
+
+
+// Second room
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 162.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 164.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 166.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 168.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 172.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 174.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 176.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 178.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 90.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 88.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 86.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 84.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 82.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 80.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 78.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 76.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 74.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 72.0
+rotation 0.0 90.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 162.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 164.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 166.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 168.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 172.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 174.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 176.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 178.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 70.0
+rotation 0.0 0.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 88.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 86.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 84.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 82.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 80.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 78.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 76.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 74.0
+rotation 0.0 90.0 0.0
+end
+
+object dike.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.0 8.0 72.0
+rotation 0.0 90.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 164.0 8.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 162.0 8.0 82.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 164.0 8.0 84.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 166.0 8.0 86.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 168.0 8.0 88.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 178.0 8.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 176.0 8.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 162.0 8.0 78.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 164.0 8.0 76.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 166.0 8.0 74.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 168.0 8.0 72.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 170.0 8.0 74.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 172.0 8.0 76.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 174.0 8.0 78.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 174.0 8.0 82.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 172.0 8.0 84.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 170.0 8.0 86.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 166.0 10.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 164.0 10.0 78.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 164.0 10.0 82.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 166.0 10.0 76.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 168.0 10.0 74.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 170.0 10.0 76.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 172.0 10.0 78.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 174.0 10.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 172.0 10.0 82.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 170.0 10.0 84.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 168.0 10.0 86.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 166.0 10.0 84.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 168.0 10.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 170.0 10.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 172.0 10.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 166.0 10.0 78.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 168.0 10.0 78.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 170.0 10.0 78.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 168.0 10.0 76.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 166.0 10.0 82.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 168.0 10.0 82.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 170.0 10.0 82.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 168.0 10.0 84.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 170.0 12.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 168.0 12.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 172.0 12.0 80.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 170.0 12.0 82.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 170.0 12.0 78.0
+rotation 0.0 0.0 0.0
+end
+
+// West bar
+object cube.obj
+position -40.0 0.0 40.0
+rotation 0.0 0.0 0.0
+scale 10 8 10
+invisible
+end
+
+// Second room - North bar
+object cube.obj
+group 2
+position 170.0 8.0 110.0
+rotation 0.0 0.0 0.0
+scale 10 8 10
+invisible
+end
+
+// Second room - East bar
+object cube.obj
+position 205.5 8.0 70.0
+rotation 0.0 0.0 0.0
+scale 1 8 10
+invisible
+end
+
+// Second room - South (Blue Door)
+object cube.obj
+position 190 8.0 24.0
+rotation 0.0 0.0 0.0
+scale 6 6 0.6
+invisible
+end
+
+object pillar_simple.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 186.0 8.0 24.0
+end
+
+object pillar_simple.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 194.0 8.0 24.0
+end
+
+object pillar_top.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.0 8.0 24.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 204.0 10.0 26.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 204.0 8.0 28.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 202.0 8.0 26.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 176.0 8.0 26.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 176.0 10.0 28.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_3d.png
+textureN crate_3n.png
+position 176.0 8.0 30.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 178.0 8.0 28.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_2d.png
+textureN crate_2n.png
+position 176.0 8.0 30.0
+rotation 0.0 0.0 0.0
+end
+
+object crate.obj
+textureD crate_1d.png
+textureN crate_1n.png
+position 176.0 8.0 32.0
+rotation 0.0 0.0 0.0
+end
+
+
+// Third room
+
+object slope_stiff.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.0 0.0 140.0
+rotation 0.0 270.0 0.0
+end
+
+object slope_stiff.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.0 0.0 150.0
+rotation 0.0 270.0 0.0
+end
+
+object slope_stiff.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.0 0.0 160.0
+rotation 0.0 270.0 0.0
+end
+
+object slope_stiff.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.0 0.0 170.0
+rotation 0.0 270.0 0.0
+end
+
+object slope_stiff.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.0 0.0 180.0
+rotation 0.0 270.0 0.0
+end
+
+object slope_stiff.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.0 0.0 190.0
+rotation 0.0 270.0 0.0
+end
+
+object slope_stiff.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.0 0.0 200.0
+rotation 0.0 270.0 0.0
+end
+
+object bridge.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.0 8.0 140.0
+rotation 0.0 0.0 0.0
+end
+
+object bridge.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.0 8.0 150.0
+rotation 0.0 0.0 0.0
+end
+
+object bridge.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.0 8.0 160.0
+rotation 0.0 0.0 0.0
+end
+
+object bridge.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.0 8.0 170.0
+rotation 0.0 0.0 0.0
+end
+
+object bridge.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.0 8.0 180.0
+rotation 0.0 0.0 0.0
+end
+
+object bridge.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.0 8.0 190.0
+rotation 0.0 0.0 0.0
+end
+
+object bridge.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.0 8.0 200.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.0 8.0 145.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.0 16.0 145.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.0 8.0 195.0
+rotation 0.0 0.0 0.0
+end
+
+object pillar.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.0 16.0 195.0
+rotation 0.0 0.0 0.0
+end
+

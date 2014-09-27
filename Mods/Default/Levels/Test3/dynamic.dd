@@ -1,0 +1,115 @@
+object player
+position 0.0 0.0 0.0
+rotation 0.0 0.0 0.0
+end
+
+object bars_locked_door
+position -35.5 0.0 40.0
+rotation 0.0 90.0 0.0
+end
+
+object shotgun_ammo
+position 190.0 9.0 100.0
+rotation 0.0 90.0 0.0
+end
+
+object alarm_light
+position -40.0 4.0 40.0
+rotation 0.0 0.0 0.0
+end
+
+object handgun_ammo
+position 150.0 9.0 100.0
+end
+
+object armor_bonus
+position 210.0 9.0 70.0
+end
+
+object health_bonus
+position 176.0 10.0 26.0
+end
+
+object flashlight
+position -25.0 1.0 40.0
+end
+
+object magnetic_card
+position 30.0 9.0 86.0
+color red
+end
+
+object plain_locked_door3
+color red
+group 1
+position 106 8.00 80.0
+rotation 0.0 90.0 0.0
+end
+
+object card_reader
+color red
+group 1
+position 105 11.0 74.0
+rotation 0.0 90.0 0.0
+end
+
+object bars_locked_door
+position 205.5 8.0 70.0
+rotation 0.0 90.0 0.0
+end
+
+object bars_locked_door
+group 2
+position 170 8.0 105.5
+rotation 0.0 0.0 0.0
+end
+
+object switch1
+group 2
+position 181.0 11.0 70.0
+rotation 0.0 270.0 0.0
+end
+
+object hidden_locked_door
+group 3
+position 150.0 8.0 50.0
+rotation 0.0 180.0 0.0
+end
+
+object invisible_switch
+group 3
+position 150.0 8.0 60.0
+end
+
+
+object plain_locked_door3
+color blue
+position 190 8.00 24.0
+rotation 0.0 0.0 0.0
+end
+
+
+object helix
+position 170 25.00 80.0
+rotation 0.0 0.0 0.0
+end
+
+object bars
+position 170.0 24.5 80.0
+rotation 90.0 0.0 0.0
+end
+
+object bars_locked_door
+position 124.5 8.0 160.0
+rotation 0.0 90.0 0.0
+end
+
+object bars_locked_door
+position 124.5 8.0 170.0
+rotation 0.0 90.0 0.0
+end
+
+object bars_locked_door
+position 124.5 8.0 180.0
+rotation 0.0 90.0 0.0
+end

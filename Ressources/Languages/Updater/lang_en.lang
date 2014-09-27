@@ -1,0 +1,16 @@
+#header
+closeButtonText				= Close the program
+minimizeButtonText			= Minimize the program
+
+#status
+LabelTextDefault			= Don't forget to check for updates.
+LabelTextSearching			= Looking for updates...
+LabelTextUpToDate			= Your version is up to date.
+LabelTextUpdateDone			= Update done.
+LabelDownloading			= Downloading : 
+LabelInstalling				= Installaling the content of the file : 
+LabelRestart				= The updater will be restarted in order to continue the update.
+ServerUpdateFileError		= Unable to contact the server.
+ServerUpdateFileError2		= Unable to download the file: 
+LaunchingGameError			= Unable to start Da\u00eddalos.
+RestartError				= Error: Please restart the updater.

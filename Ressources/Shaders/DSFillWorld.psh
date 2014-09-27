@@ -1,0 +1,82 @@
+#define MAX_SHADOW_SOURCE 4
+
+uniform float4 shadowConfiguration; // shadow map size, epsilon
+uniform float viewDistance;
+uniform int shadowCaster[MAX_SHADOW_SOURCE];
+
+struct VS_OUTPUT
+{
+	float4 position 	: POSITION;
+	float2 texcoord0	: TEXCOORD0;
+	float3 normal		: TEXCOORD1;
+	float3 tangent		: TEXCOORD2;
+	float3 bitangent	: TEXCOORD3;
+	float  depth	  	: TEXCOORD4;
+	float4 posToLight0 	: TEXCOORD5;
+	float4 posToLight1 	: TEXCOORD6;
+	float4 posToLight2 	: TEXCOORD7;
+	float4 posToLight3 	: TEXCOORD8;
+	float4 color	 	: COLOR0;
+};
+
+struct PS_OUTPUT
+{
+	float4 color0 : COLOR0; // Diffuse, Emission factor
+	float4 color1 : COLOR1; // Normals, Ns
+	float4 color2 : COLOR2; // Positions, depth
+	float4 color3 : COLOR3; // Shadow depth
+};
+
+sampler2D textureDiffuseSampler;
+sampler2D textureNormalSampler;
+sampler2D shadowMap0Sampler;
+sampler2D shadowMap1Sampler;
+sampler2D shadowMap2Sampler;
+sampler2D shadowMap3Sampler;
+
+float getSourcePixelValue(int index, sampler2D samplerName, float4 lightPosition)
+{
+	if(shadowCaster[index] > 0)
+	{
+		float4 sourcevals;
+		float2 ShadowTexC;
+		float2 texelpos;
+		float2 lerps;
+		float shadowdepth;
+	
+		ShadowTexC = 0.5f * lightPosition.xy / lightPosition.w + float2(0.5f, 0.5f);
+		ShadowTexC.y = 1.0f - ShadowTexC.y;
+
+		// Check our value against the depth value
+		texelpos = shadowConfiguration.x * ShadowTexC;
+        
+        // Determine the lerp amounts           
+        lerps = frac( texelpos );
+
+        //read in bilerp stamp, doing the shadow checks
+        sourcevals.x = (tex2D( samplerName, ShadowTexC ) + shadowConfiguration.y < lightPosition.z / lightPosition.w)? 0.0f: 1.0f;  
+        sourcevals.y = (tex2D( samplerName, ShadowTexC + float2(1.0f / shadowConfiguration.x, 0) ) + shadowConfiguration.y < lightPosition.z / lightPosition.w)? 0.0f: 1.0f;  
+        sourcevals.z = (tex2D( samplerName, ShadowTexC + float2(0, 1.0f / shadowConfiguration.x) ) + shadowConfiguration.y < lightPosition.z / lightPosition.w)? 0.0f: 1.0f;  
+        sourcevals.w = (tex2D( samplerName, ShadowTexC + float2(1.0f / shadowConfiguration.x, 1.0 / shadowConfiguration.x) ) + shadowConfiguration.y < lightPosition.z / lightPosition.w)? 0.0f: 1.0f;  
+			
+		// lerp between the shadow values to calculate our light amount
+		return lerp( lerp( sourcevals.x, sourcevals.y, lerps.x ), lerp( sourcevals.z, sourcevals.w, lerps.x ), lerps.y );
+	}
+	else
+		return 1.0f;
+}
+
+PS_OUTPUT main( VS_OUTPUT IN )
+{
+	PS_OUTPUT OUT;
+	float3x3 tangentToSpace = transpose(float3x3(IN.tangent, IN.bitangent, IN.normal));
+	
+	OUT.color0 = float4(tex2D(textureDiffuseSampler, IN.texcoord0).xyz, IN.color.x);
+	OUT.color1 = float4((mul(tangentToSpace, tex2D(textureNormalSampler, IN.texcoord0).xyz * 2.0f - 1.0f) + 1.0f) / 2.0f, IN.color.w);
+	OUT.color2 = IN.depth / viewDistance;
+	
+	// Shadow Depth calculation
+	OUT.color3 = float4(getSourcePixelValue(0, shadowMap0Sampler, IN.posToLight0), getSourcePixelValue(1, shadowMap1Sampler, IN.posToLight1), getSourcePixelValue(2, shadowMap2Sampler, IN.posToLight2), getSourcePixelValue(3, shadowMap3Sampler, IN.posToLight3));
+
+	return OUT;
+}

@@ -1,0 +1,6473 @@
+// Walls - First layer
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 0.00 0.00 0.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 0.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 0.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -40.00 0.00 40.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 0.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 0.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 0.00 0.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 0.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.00 0.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 0.00 80.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 0.00 70.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 0.00 60.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.00 0.00 50.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.00 0.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 0.00 50.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 0.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 60.00 0.00 50.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 60.00 0.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 70.00 0.00 50.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 70.00 0.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 0.00 30.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 0.00 20.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 0.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.00 0.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 0.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 0.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 0.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 0.00 130.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.00 0.00 130.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 0.00 130.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.00 0.00 130.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 0.00 130.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 0.00 0.00 130.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 0.00 130.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 0.00 130.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 130.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 0.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 0.00 120.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 0.00 110.00
+rotation 0.00 270.00 0.00
+end
+
+// Third room
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 0.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 0.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 0.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 0.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 0.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 0.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 0.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 0.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 0.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 0.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 0.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 0.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 0.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 0.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 0.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 0.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 0.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 0.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 0.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 0.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Walls - Second layer
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.00 8.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 8.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 0.00 8.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 8.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 8.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 8.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 8.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 8.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 8.00 60.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 8.00 50.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 8.00 40.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 8.00 30.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 8.00 20.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 8.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 8.00 50.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 60.00 8.00 50.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 60.00 8.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 70.00 8.00 50.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 70.00 8.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 80.00 8.00 50.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 80.00 8.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 90.00 8.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 100.00 8.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 100.00 8.00 50.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 100.00 8.00 60.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 100.00 8.00 70.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 100.00 8.00 90.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 90.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 80.00 8.00 70.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 70.00 8.00 70.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 60.00 8.00 70.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 8.00 70.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.00 8.00 70.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 0.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 0.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 40.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 60.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 70.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 80.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 90.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 100.00 8.00 110.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 110.00 8.00 110.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 110.00 8.00 100.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 8.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 50.00 8.00 120.00
+rotation 0.00 180.00 0.00
+end
+
+
+// Second room
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 110.00 8.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 120.00 8.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 8.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 100.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 200.00 8.00 100.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 200.00 8.00 90.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 200.00 8.00 80.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 200.00 8.00 60.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 60.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 8.00 60.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 8.00 60.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 8.00 60.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 8.00 40.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 8.00 40.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 8.00 40.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 40.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 200.00 8.00 40.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 200.00 8.00 30.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 210.00 8.00 40.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 220.00 8.00 40.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 220.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 220.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 220.00 8.00 70.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 210.00 8.00 70.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 8.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+// Third room
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 8.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 8.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 8.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 8.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 8.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 8.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 8.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 8.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 8.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 8.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 8.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 8.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 8.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 8.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 8.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 120.00 8.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 120.00 8.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 120.00 8.00 180.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_2.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 8.00 210.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 8.00 220.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 8.00 220.00
+rotation 0.00 90.00 0.00
+end
+
+
+// Walls - Third layer
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 16.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 16.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 16.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -10.00 16.00 60.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 0.00 16.00 60.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 16.00 60.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 16.00 50.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 16.00 40.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 16.00 30.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 0.00 16.00 30.00
+rotation 0.00 270.00 0.00
+end
+
+// Second room
+
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 16.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 16.00 90.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 16.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_5.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 24.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Walls - Fourth layer
+object wall_4.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 16.00 80.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Third room
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 16.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 16.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 16.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 16.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 16.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 16.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 130.00 16.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 16.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 16.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 16.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 16.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 16.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 16.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 16.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 16.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 16.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 16.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 16.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 16.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 16.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 16.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 16.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 16.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 16.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Walls - Layer 4
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 24.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 24.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 24.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 24.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 140.00 24.00 190.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 24.00 190.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 24.00 190.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 24.00 190.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 24.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 24.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 24.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 24.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 24.00 150.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 24.00 150.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 24.00 150.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 150.00 24.00 150.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Walls - Layer -1
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.00 -8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 20.00 -8.00 20.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 -8.00 20.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 30.00 -8.00 10.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 -8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 -8.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 -8.00 80.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 -8.00 70.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_5.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 -8.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+// Third room
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -8.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -8.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -8.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -8.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -8.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -8.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -8.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -8.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -8.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -8.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -8.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -8.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -8.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -8.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -8.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -8.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -8.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -8.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Walls - Layer -2
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 -16.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 -16.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 -16.00 80.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 -16.00 70.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_5.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 -16.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+// Third room
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -16.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -16.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -16.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -16.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -16.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -16.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -16.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -16.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -16.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -16.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -16.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -16.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -16.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -16.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -16.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -16.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -16.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -16.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Walls - Layer -3
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 -24.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 -24.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 -24.00 80.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 -24.00 70.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_5.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 -24.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+// Third room
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -24.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -24.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -24.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -24.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -24.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -24.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -24.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -24.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -24.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -24.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -24.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -24.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -24.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -24.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -24.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -24.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -24.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -24.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Walls - Layer -4
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 -32.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -30.00 -32.00 80.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 -32.00 80.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position -20.00 -32.00 70.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_5.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 10.00 -32.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Third room
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -32.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -32.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -32.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -32.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -32.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -32.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -32.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -32.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -32.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -32.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -32.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -32.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -32.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -32.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -32.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -32.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -32.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -32.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+// Walls - Layer -5
+
+// Third room
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -40.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -40.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -40.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -40.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -40.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -40.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -40.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -40.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -40.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -40.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -40.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -40.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -40.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -40.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -40.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -40.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -40.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -40.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Walls - Layer -6
+
+// Third room
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -48.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -48.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -48.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -48.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -48.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -48.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -48.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -48.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -48.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -48.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -48.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -48.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -48.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -48.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -48.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -48.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -48.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -48.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Walls - Layer -7
+
+// Third room
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -56.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -56.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -56.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -56.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -56.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -56.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -56.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -56.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -56.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -56.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -56.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -56.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -56.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -56.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -56.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -56.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -56.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -56.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Walls - Layer -8
+
+// Third room
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -64.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -64.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -64.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -64.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -64.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -64.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -64.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -64.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 160.00 -64.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 170.00 -64.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 180.00 -64.00 200.00
+rotation 0.00 90.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -64.00 200.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -64.00 190.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -64.00 180.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -64.00 170.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -64.00 160.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_1.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -64.00 150.00
+rotation 0.00 180.00 0.00
+end
+
+object wall_3.obj
+textureD wall_1d.png
+textureN wall_1n.png
+position 190.00 -64.00 140.00
+rotation 0.00 270.00 0.00
+end
+
+
+// Ceiling - First layer
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 0.00 0.00 0.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -40.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 0.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 40.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 40.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 50.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 40.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 10.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 0.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -10.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -10.00 0.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 0.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 0.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 0.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 0.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 0.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+// Ceiling - Second layer
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 10.00 8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 0.00 8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -10.00 8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -30.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -10.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 0.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 10.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 10.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 0.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -10.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -20.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position -10.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 0.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 10.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 50.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 50.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 60.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 60.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 70.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 70.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 80.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 80.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 90.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 90.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 90.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 90.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 90.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 90.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 90.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 80.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 70.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 60.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 50.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 40.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 80.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 70.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 60.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 50.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 40.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 90.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 80.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 70.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 60.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 50.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 40.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 10.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 0.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 90.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 80.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 70.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 60.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 50.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 40.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 30.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 20.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 10.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 0.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 100.00 8.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 110.00 8.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 110.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 50.00 8.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 50.00 8.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+// Second room
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 110.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 120.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 130.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 200.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 200.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 200.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 200.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 200.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 200.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 200.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 210.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 220.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 220.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 220.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 220.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 210.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 8.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Third room
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 8.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 8.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 120.00 8.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 120.00 8.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 120.00 8.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 8.00 210.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 8.00 220.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 8.00 220.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Ceiling - Third layer
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position 10.00 16.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position 0.00 16.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position -10.00 16.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position 10.00 16.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position 0.00 16.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position -10.00 16.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position 10.00 16.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position 0.00 16.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position -10.00 16.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position 10.00 16.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position 0.00 16.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD black_d.png
+textureN black_n.png
+position -10.00 16.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+// Second room
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 16.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 16.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 16.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 16.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+// Third room
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 130.00 16.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 130.00 16.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 130.00 16.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 130.00 16.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 130.00 16.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 130.00 16.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 130.00 16.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 16.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 16.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 16.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 16.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 16.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 16.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 16.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 16.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 16.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 16.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 16.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 190.00 16.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 16.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 16.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 16.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 16.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 16.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Ceiling - Fourth layer
+
+// Second room
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 24.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Third room
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 24.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 24.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 24.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 24.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 24.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 24.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 24.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 24.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 24.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 24.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 24.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 24.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 24.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 24.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 24.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 24.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 24.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 24.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 24.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 24.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 140.00 24.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 150.00 24.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 160.00 24.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 170.00 24.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ceiling_1.obj
+invisible
+textureD ceiling_1d.png
+textureN ceiling_1n.png
+position 180.00 24.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Ground - First Layer
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 0.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 0.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 0.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 0.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 0.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 0.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 0.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 0.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 0.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 0.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 0.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 0.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 0.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 0.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 0.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 0.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 0.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 0.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 0.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 40.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 40.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 60.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 60.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 70.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 70.00 0.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -40.00 0.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.00 0.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.00 0.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 40.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -10.00 0.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 0.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 0.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 0.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Third room
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 0.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 0.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 0.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 0.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 0.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 0.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 0.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Ground - Second Layer
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 80.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 80.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 90.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 90.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 100.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 100.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 100.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 90.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 100.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 90.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 100.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 90.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 100.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 90.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 100.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 90.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 80.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 70.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 60.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 40.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 80.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 70.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 60.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 40.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 80.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 70.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 60.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 40.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 80.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 70.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 60.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 50.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 40.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 0.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 100.00 8.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 110.00 8.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 110.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+// Second room
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 110.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 120.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 130.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 200.00 8.00 100.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 200.00 8.00 90.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 200.00 8.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 200.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 200.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 150.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 200.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 200.00 8.00 30.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 210.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 220.00 8.00 40.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 220.00 8.00 50.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 220.00 8.00 60.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 220.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 210.00 8.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 110.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Third room
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 120.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 130.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 130.00 8.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 130.00 8.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 130.00 8.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 130.00 8.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 130.00 8.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 130.00 8.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 130.00 8.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 140.00 8.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 120.00 8.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 120.00 8.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 120.00 8.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 210.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 8.00 220.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 8.00 220.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Ground - Layer -1
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 -8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 20.00 -8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 -8.00 20.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 30.00 -8.00 10.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Ground - Layer -1
+
+// Third room
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 -64.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 -64.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 -64.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 -64.00 200.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 -64.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 -64.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 -64.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 -64.00 190.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 -64.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 -64.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 -64.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 -64.00 180.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 -64.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 -64.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 -64.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 -64.00 170.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 -64.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 -64.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 -64.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 -64.00 160.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 -64.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 -64.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 -64.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 -64.00 150.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 160.00 -64.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 170.00 -64.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 180.00 -64.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 190.00 -64.00 140.00
+rotation 0.00 0.00 0.00
+end
+
+
+// Ground - Layer -4
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 -32.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -30.00 -32.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 -32.00 80.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position -20.00 -32.00 70.00
+rotation 0.00 0.00 0.00
+end
+
+object ground_1.obj
+textureD ground_1d.png
+textureN ground_1n.png
+position 10.00 -32.00 130.00
+rotation 0.00 0.00 0.00
+end

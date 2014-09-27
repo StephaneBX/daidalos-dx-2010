@@ -1,0 +1,100 @@
+#define MAXIMUM_VALID_REFLECTION_ANGLE 90.0f
+
+uniform float4 lightningConfiguration; // angle fade out, distance fade out, fog fade out, ns modifier
+
+uniform float4 cameraPositionDistance;
+uniform float4 lightPositionAngle;
+uniform float4 lightDirectionLength;
+uniform float4 lightColor;
+
+struct VS_INPUT
+{
+	float4 position 	: POSITION;
+	float2 texcoord0	: TEXCOORD0;
+	float3 viewDistance	: TEXCOORD1;
+};
+
+struct PS_OUTPUT
+{
+	float4 color : COLOR;
+};
+
+sampler2D albedo 			: register(s0);
+sampler2D normal 			: register(s1);
+sampler2D depth 			: register(s2);
+
+PS_OUTPUT main(VS_INPUT IN)
+{
+    PS_OUTPUT OUT;
+	OUT.color = float4(0,0,0,0);
+	
+	float4 currentNormalNs = tex2D( normal, IN.texcoord0 );
+	currentNormalNs.xyz = currentNormalNs.xyz * 2 - 1.0f;
+	float4 currentDiffuse = tex2D( albedo, IN.texcoord0 );
+	float3 currentPosition = cameraPositionDistance.xyz + (tex2D( depth, IN.texcoord0 ).r * IN.viewDistance);
+	float4 viewDistance = float4(normalize(currentPosition.xyz - cameraPositionDistance.xyz), length(cameraPositionDistance.xyz - currentPosition.xyz));
+	float3 tmp;
+	float3 lightDir;
+	float3 h;
+	float4 fogAngleDistanceIlluminationFactors;
+	float2 reflectionLightAngles;
+	float3 spec = float3(0.3f,0.3f,0.3f);
+	float3 maxDiff = float3(0.15f, 0.15f, 0.15f) + currentDiffuse.xyz * currentDiffuse.w;
+	float3 maxSpec = float3(0,0,0);
+	float dist = length(cameraPositionDistance.xyz - currentPosition.xyz);
+	
+	// Distance Check
+	if(dist < cameraPositionDistance.w)
+	{
+		// Fog Factor
+		if(viewDistance.w >= cameraPositionDistance.w - lightningConfiguration.z)
+			fogAngleDistanceIlluminationFactors.x = (1 - ((viewDistance.w - (cameraPositionDistance.w - lightningConfiguration.z)) / lightningConfiguration.z));
+		else
+			fogAngleDistanceIlluminationFactors.x = 1;
+					
+		// Light Angle Check
+		reflectionLightAngles.y = degrees(acos(dot(normalize(currentPosition.xyz - lightPositionAngle[i].xyz), lightDirectionLength[i].xyz)));
+		viewDistance.w = distance(currentPosition.xyz, lightPositionAngle[i].xyz);
+		if(reflectionLightAngles.y < lightPositionAngle[i].w && viewDistance.w < lightDirectionLength[i].w)
+		{
+			lightDir = currentPosition.xyz - lightPositionAngle[i].xyz;
+			lightDir = normalize(-lightDir);
+			
+			// Reflection Angle Check
+			reflectionLightAngles.x = degrees(acos(dot(lightDir, currentNormalNs.xyz)));
+			if(reflectionLightAngles.x < MAXIMUM_VALID_REFLECTION_ANGLE)
+			{
+				// Light Angle Factor
+				fogAngleDistanceIlluminationFactors.y = reflectionLightAngles.y / lightPositionAngle[i].w;
+				if(fogAngleDistanceIlluminationFactors.y <= lightningConfiguration.x)
+					fogAngleDistanceIlluminationFactors.y = 1;
+				else
+					fogAngleDistanceIlluminationFactors.y = (1 - fogAngleDistanceIlluminationFactors.y) / (1 - lightningConfiguration.x);
+				
+				// Light Distance Factor
+				fogAngleDistanceIlluminationFactors.z = viewDistance.w / lightDirectionLength[i].w;
+				if(fogAngleDistanceIlluminationFactors.z <= lightningConfiguration.y)
+					fogAngleDistanceIlluminationFactors.z = 1;
+				else
+					fogAngleDistanceIlluminationFactors.z = (1 - fogAngleDistanceIlluminationFactors.z) / (1 - lightningConfiguration.y);
+			
+				// Diffuse Illumination Factor
+				fogAngleDistanceIlluminationFactors.w = saturate(dot(lightDir, currentNormalNs.xyz));
+				tmp = lightColor[i].xyz * fogAngleDistanceIlluminationFactors.w * fogAngleDistanceIlluminationFactors.y * fogAngleDistanceIlluminationFactors.z;
+				maxDiff = max(maxDiff, tmp);
+				
+				// Specular Illumination Factor
+				h = normalize(reflect(lightDir, currentNormalNs.xyz));
+				fogAngleDistanceIlluminationFactors.w = pow(saturate(dot(h, viewDistance.xyz)), currentNormalNs.w * lightningConfiguration.w);
+				
+				tmp = lightColor[i].xyz * spec * fogAngleDistanceIlluminationFactors.w * fogAngleDistanceIlluminationFactors.y * fogAngleDistanceIlluminationFactors.z;
+				maxSpec = max(maxSpec, tmp);
+			}
+		}
+		
+		OUT.color = float4(saturate(maxDiff + maxSpec), 1.0f) * float4(currentDiffuse.xyz, 1.0f) * fogAngleDistanceIlluminationFactors.x;
+	}
+	
+	return OUT;
+}
+
